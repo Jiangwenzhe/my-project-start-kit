@@ -19,6 +19,12 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: "./public/index.html",
       filename: "./index.html"
-    })
-  ]
+    }),
+  ],
+  devServer: {
+    hot: true,
+    inline: true,
+    port: 8080,
+    historyApiFallback: true,
+  }
 };
