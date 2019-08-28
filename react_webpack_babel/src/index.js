@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import './style.scss';
 
 const App = () => {
-  return <div>React is running nhg...</div>;
+  return <div>React is running</div>;
 };
-
 
 // enable HMR
 if (module.hot) {
